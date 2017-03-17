@@ -5,6 +5,7 @@ import express from 'express';
 import slapp from 'config/slapp';
 
 // Behaviours
+import hello from 'behaviours/hello';
 import bug from 'behaviours/bug';
 
 // Attach Slapp to express server
