@@ -1,0 +1,20 @@
+{
+  "name": "Navi",
+  "version": "0.0.1",
+  "description": "The Best Bot Ever",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PawkaHub/Parker"
+  },
+  "scripts": {
+    "serve": "node ./server.js"
+  },
+  "author": "Parker Tech Inc.",
+  "homepage": "https://www.parker.tech",
+  "dependencies": {
+    "express": "^4.15.2",
+    "slapp": "^2.2.1",
+    "slapp-context-beepboop": "^1.4.0",
+    "slapp-convo-beepboop": "^1.0.1"
+  }
+}
