@@ -20,7 +20,7 @@ export default slapp.event('message', async (msg) => {
 
   // If the name isn't who we want to bug, don't add a reaction
   const { name } = userData.user;
-  if (name !== 'pawka') return;
+  if (name !== 'trevon') return;
   console.log(`Bugging ${name}`);
 
   // Add a reaction
