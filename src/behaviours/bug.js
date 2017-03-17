@@ -28,7 +28,7 @@ export default slapp.event('message', async (msg) => {
     token,
     name: 'fastparrot',
     channel,
-    timestamp
+    timestamp,
   }, (err) => {
     if (err) return console.log('error adding reaction');
   });
