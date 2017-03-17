@@ -32,8 +32,9 @@ slapp.event('message', async (msg) => {
   const channel = body.event.channel;
   const timestamp = body.event.ts;
 
-  // Get user data
+  // Get user data (only if there's any user data to be had)
   const user = body.event.user;
+  if (!user) return;
   const userData = await getUserData({ token, user }).catch(logError);
   // console.log('userData called', userData);
 
