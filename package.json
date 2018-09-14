@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "webpack --config=./src/config/webpack.config.js",
-    "serve": "yarn run build && node ./build/main.bundle.js"
+    "serve": "npm run build && node ./build/main.bundle.js"
   },
   "author": "Parker Tech Inc.",
   "homepage": "https://www.parker.tech",
